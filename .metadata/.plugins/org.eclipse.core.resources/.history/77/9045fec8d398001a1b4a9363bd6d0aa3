@@ -1,0 +1,10 @@
+package com.xinyan.buzz.exe1;
+
+public class Circle {
+	private double radious;
+	
+	public Circle() {
+		radious = 1;
+	}
+
+}

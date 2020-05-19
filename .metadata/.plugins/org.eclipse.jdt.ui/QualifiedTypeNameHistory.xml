@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.xinyan.project.ui.CustomerView"/>
+    <fullyQualifiedTypeName name="com.xinyan.project.service.CustomerList"/>
+    <fullyQualifiedTypeName name="com.xinyan.project.bean.Customer"/>
+    <fullyQualifiedTypeName name="com.xinyan.project.util.CMUtility"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.xinyan.buzz.exe1.ManKind"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="com.xinyan.buzz.exe1.Circle"/>
+    <fullyQualifiedTypeName name="com.xinyan.buzz.exe1.Cylineder"/>
+    <fullyQualifiedTypeName name="com.xinyan.buzz.exe1.Kids"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java3.SuperTest"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java3.Students"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exe2.CheckAccountTest"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exe2.CheckAccount"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exe2.Account"/>
+</qualifiedTypeNameHistroy>

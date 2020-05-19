@@ -1,0 +1,49 @@
+package buzz.xinyan.java.exe2;
+
+public class CheckAccount extends Account {
+	private double overdraft;		//可透支限额
+	
+	public CheckAccount(String ID, double balance, double annualinterestRate,double overdraft) {
+		super(ID,balance,annualinterestRate);
+		this.overdraft = overdraft;
+	}
+
+	/**
+	 * 
+	 * @Description 取款方法//
+	 * @author Ivan Xin
+	 * @date 2020年5月19日下午12:50:11
+	 * @param amount 取钱
+	 */
+	public void withdraw(double amount) {
+
+	
+		if (amount <= getBalance()) {
+
+			System.out.println("取款成功！");
+//			setBalance(getBalance() - amount);
+			System.out.println("您的账户余额为："+getBalance());
+			System.out.println("您的可以透支额度：" + overdraft);
+			System.out.println("******************");
+		} else if(amount > getBalance()){
+			setBalance((getBalance()-amount));
+//			System.out.println(getBalance() );
+			if( getBalance() > overdraft) {
+				System.out.println("对不起! 超过透支限额！");
+//				System.out.println("您的账户余额为：" + 0);
+//				System.out.println("取款成功！");
+//				System.out.println("您的可以透支额度：" + (overdraft-(amount-getBalance())));
+			}else {
+				System.out.println("此次取款将透支账户");
+				System.out.println("您的账户余额为：" + 0);
+				System.out.println("取款成功！");
+	
+				System.out.println("您的可以透支额度：" + (overdraft-(amount-getBalance())));
+		}
+		}
+	}
+}
+			
+	
+
+

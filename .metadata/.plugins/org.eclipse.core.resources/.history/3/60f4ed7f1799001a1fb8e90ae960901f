@@ -1,0 +1,16 @@
+package buzz.xinyan.java3;
+
+import java.security.PublicKey;
+
+public class Persion {
+
+	private String name;
+	private int age;
+
+	public Persion() {
+	}
+	public Persion(String name) {
+		this.name = name;
+	}
+
+}

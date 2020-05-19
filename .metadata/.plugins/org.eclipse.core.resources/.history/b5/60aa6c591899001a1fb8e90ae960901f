@@ -1,0 +1,5 @@
+package buzz.xinyan.java3;
+
+public class Students extends Persion {
+
+}

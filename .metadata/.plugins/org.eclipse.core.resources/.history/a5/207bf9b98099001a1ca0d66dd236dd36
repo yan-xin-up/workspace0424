@@ -1,0 +1,16 @@
+package buzz.xinyan.java.exe2;
+
+import java.security.PublicKey;
+
+public class Account {
+	private String ID;
+	private double balance;
+	private double annualinterestRate;
+
+	public Account(String ID,double balance,double annualinterestRate){
+		
+	public String getId() {
+		return ID;
+		}
+	}
+}

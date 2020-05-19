@@ -1,0 +1,11 @@
+package com.xinyan.buzz.exe1;
+
+public class Kids extends ManKind {
+	
+	int yesrsOld;
+	
+	public void printAge() {
+		System.out.println("yearsOld");
+	}
+
+}
