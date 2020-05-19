@@ -8,7 +8,9 @@ public class Account {
 	private double annualinterestRate;
 	private double totalbalance;
 	
-	
+	public Account() {
+		
+	}
 	public Account(String ID, double balance, double annualinterestRate) {
 		this.annualinterestRate = annualinterestRate;
 		this.balance = balance;
@@ -69,11 +71,11 @@ public class Account {
 	public void deposit(double amount) {
 
 		if (amount > 0) {
-			balance += amount;
+			System.out.println("您的账户余额为：" + (totalbalance+amount));
 		} else {
 			System.out.println("对不起! 请存入足额现金！");
 		}
-		
+		System.out.println("您的月利率为："+getMonthlyInterest());
 
 	}
 }

@@ -9,7 +9,7 @@ public class AccountTest {
 		oneaAccount.withdraw(2500);
 		oneaAccount.deposit(3000);
 		System.out.println("您的账户余额为：" +oneaAccount.getBalance());
-		System.out.println("您的月利率为："+((oneaAccount.getMonthlyInterest())*100)+"%");
+		System.out.println("您的月利率为："+oneaAccount.getMonthlyInterest());
 	}
 
 }

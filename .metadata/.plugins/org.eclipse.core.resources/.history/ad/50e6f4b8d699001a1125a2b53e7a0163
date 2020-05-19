@@ -8,7 +8,9 @@ public class Account {
 	private double annualinterestRate;
 	private double totalbalance;
 	
-	
+	public Account() {
+		
+	}
 	public Account(String ID, double balance, double annualinterestRate) {
 		this.annualinterestRate = annualinterestRate;
 		this.balance = balance;
