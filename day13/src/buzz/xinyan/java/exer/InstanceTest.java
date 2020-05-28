@@ -12,16 +12,27 @@ public class InstanceTest {
 
 		String info = e.getInfo();
 		System.out.println(info);
-		if (e instanceof Graduate) {//由范围较小处开始
+//		if (e instanceof Graduate) {//由范围较小处开始
+//			System.out.println("a graduate student");
+//			System.out.println("a student");
+//			System.out.println("a person");
+//		} else if (e instanceof Student) {
+//			System.out.println("a student");
+//			System.out.println("a person");
+//		} else {
+//			System.out.println("a person");
+//		}
+		//another way
+		if(e instanceof Graduate) {//由范围较小处开始,
 			System.out.println("a graduate student");
+		}
+		if(e instanceof Student) {
 			System.out.println("a student");
-			System.out.println("a person");
-		} else if (e instanceof Student) {
-			System.out.println("a student");
-			System.out.println("a person");
-		} else {
+		}
+		if(e instanceof Person) {
 			System.out.println("a person");
 		}
+		
 
 	}
 }
