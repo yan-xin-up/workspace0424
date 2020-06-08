@@ -1,8 +1,8 @@
 package buzz.xinyan.java.exer;
 
 public class OrderTest {
-	
-	public  static void  main(String[] args) {
+
+	public static void main(String[] args) {
 		Order o1 = new Order("w2w", 13);
 		Order o2 = new Order("www", 13);
 		System.out.println(o1.equals(o2));
@@ -29,10 +29,10 @@ class Order {
 		return orderName;
 	}
 
-	public  Order(String orderName,int orderId) {
+	public Order(String orderName, int orderId) {
 		super();
-		this.orderId=orderId;
-		this.orderName=orderName;
+		this.orderId = orderId;
+		this.orderName = orderName;
 	}
 
 	@Override
