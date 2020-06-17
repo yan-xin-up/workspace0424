@@ -36,16 +36,35 @@ public class ScoreTest {
 				continue;											//继续回到循环开头，读取数值。
 			}
 			//3.1 利用v.addElement()添加。\
-			//jdk5.0之前操作
+			//jdk5.0之前操作 基本数据类型 调用包装类的构造器
 //			Integer inscore = new Integer(score);
-//			v.addElement(inscore);
-			v.addElement(score);
+//			v.addElement(inscore); java 多态
+			v.addElement(score);			//jdk 5.0之后自动装箱
 			//System.out.println(score);
-			//获取最大值
+			//4 获取学生成绩的最大值
 			if(maxScore < score) {
 				 maxScore = score;
 			}
 		}
-		
+		//遍历Vector，得到每个学生的成绩，并且与最大的成绩比较获得每个学生的等级
+		char level;				//定义等级
+		for(int i = 0;i < v.size();i++ ) {
+			Object  obj=v.elementAt(i);		//取出数组中的元素，此处需将包装类转换为基本数据类型
+			//在jdk5.0前需要将
+			Integer inscore = (Integer)obj;		//	将类型强转为integer;
+//			int score =inscore.intValue();			5.0之前将包装类转换为基本数据类型
+			int score  = inscore;
+			if(maxScore - score <=10) {
+				level = 'A';
+			}else if(maxScore-score <= 20) {
+				level = 'B';
+			}else if(maxScore-score <= 30) {
+				level = 'C';
+			}else {
+				level = 'D';
+			}
+			
+			System.out.println("Student	  "+i+" 	Score is"+score+"	level is	"+level+".");
+		}
 	}
 }
