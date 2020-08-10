@@ -1,6 +1,8 @@
 package buzz.xinyan.java.exer;
 
-import java.lang.reflect.Method;
+
+
+
 
 public class InstanceTest {
 	public static void main(String[] args) {
@@ -8,9 +10,9 @@ public class InstanceTest {
 		test.Method(new Student());
 	}
 
-	public void Method(Person e) {
+	public void Method(Student student) {
 
-		String info = e.getInfo();
+		String info = student.getInfo();
 		System.out.println(info);
 //		if (e instanceof Graduate) {//由范围较小处开始
 //			System.out.println("a graduate student");
@@ -23,13 +25,13 @@ public class InstanceTest {
 //			System.out.println("a person");
 //		}
 		//another way
-		if(e instanceof Graduate) {//由范围较小处开始,
+		if(student instanceof Graduate) {//由范围较小处开始,
 			System.out.println("a graduate student");
 		}
-		if(e instanceof Student) {
+		if(student instanceof Student) {
 			System.out.println("a student");
 		}
-		if(e instanceof Person) {
+		if(student instanceof Person) {
 			System.out.println("a person");
 		}
 		
@@ -37,7 +39,7 @@ public class InstanceTest {
 	}
 }
 
-class Person {
+class Person{
 	protected String name = "person";
 	protected int age = 50;
 
