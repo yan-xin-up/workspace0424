@@ -1,4 +1,4 @@
-package buzz.xinyan.java.exer2;
+package buzz.xinyan.java1;
 
 public class Customer {
 	private String firstName;
@@ -9,16 +9,22 @@ public class Customer {
 		firstName = f;
 		lastName = l;
 	}
+
+	
 	public String getFirstName() {
-		return firstName;		
+		return firstName;
 	}
+
 	public String getLastName() {
-		return lastName;				
+		return lastName;
 	}
+
 	public Account getAccount() {
 		return account;
 	}
+
 	public void setAccount(Account account) {
 		this.account = account;
 	}
+
 }
