@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INDEX VERSION 1.131+K:\workspace_eclipse的副本\workspace0424\.metadata\.plugins\org.eclipse.jdt.core
 2349671270.index
 756006386.index
@@ -22,3 +23,11 @@ INDEX VERSION 1.131+K:\workspace_eclipse的副本\workspace0424\.metadata\.plugins\
 876400180.index
 4266428024.index
 2672315831.index
+=======
+INDEX VERSION 1.131+/Users/ivan/Desktop/workspace_eclipse/workspace0424/.metadata/.plugins/org.eclipse.jdt.core
+1049636216.index
+2953740120.index
+4256846406.index
+692252847.index
+2327667408.index
+>>>>>>> 58e0e38fc512c36929a97f725e147d3d180c96b7
