@@ -11,7 +11,8 @@ public class AcText {
 		
 		System.out.println("Customer  ["+cust.getLastName()+","+cust.getFirstName()+
 				"]"+" has a account : id is"+cust.getAccount().getId()+","+"annualInterestRate  is "
-				+ cust.getAccount().getAnnualInterestRate()*100+"%"+" balance is: "+cust.getAccount().getBalance());
+				+ cust.getAccount().getAnnualInterestRate()*100+"%"+" balance is: "
+				+cust.getAccount().getBalance());
 		
 	
 	}
