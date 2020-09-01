@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="com.xinyan.buzz.exe1.Kids"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java3.SuperTest"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java3.Students"/>
-    <fullyQualifiedTypeName name="java.security.PublicKey"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exe2.CheckAccountTest"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exe2.CheckAccount"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exe2.Account"/>
@@ -22,7 +21,6 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.awt.print.Printable"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exer.PassObjecet"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exer.Circle"/>
@@ -31,9 +29,25 @@
     <fullyQualifiedTypeName name="buzz.xinyan.java.exer2.Person"/>
     <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exer2.Boy"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.java.exer2.Girl"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exer2.Account"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exer2.Customer"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java1.Customer"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java1.Bank"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java1.Account"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer2.Girl"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.day10.CylinderText"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.day10.Cylinder"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.day10.Box"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.day10.Dog"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.day10.Distance"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.day10.person"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.day10.Person"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.day10.Car"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="org.omg.CORBA.PRIVATE_MEMBER"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.day10.Lesson"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
