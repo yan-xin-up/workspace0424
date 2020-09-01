@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+<<<<<<< HEAD
+<entry loc="C:\Program Files\Java\jdk1.8.0_131" stamp="1584340724336"/>
+<entry loc="C:\Program Files\Java\jdk1.8.0_131\jre" stamp="1584340659553"/>
+<entry loc="/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home" stamp="1568844341000"/>
+=======
     <entry loc="C:\Program Files\Java\jdk1.8.0_131" stamp="1584340724336"/>
     <entry loc="C:\Program Files\Java\jdk1.8.0_131\jre" stamp="1584340659553"/>
     <entry loc="/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home" stamp="1568844341000"/>
+>>>>>>> 58e0e38fc512c36929a97f725e147d3d180c96b7
 </dirs>
