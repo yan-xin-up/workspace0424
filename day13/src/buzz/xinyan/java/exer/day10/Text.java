@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 781671ea7c515fa22cf7845045d2ccde2b6265ed
+
 //package buzz.xinyan.java.exer.day10;
 //
 ///*2、定义一个丈夫Husband类，有姓名、年龄、妻子属性
@@ -55,11 +52,11 @@
 ////System.out.println("姓名"+husband.name+"年龄"+husband.age);
 //
 //	}
-<<<<<<< HEAD
+
 //}
-=======
+
 //}
-=======
+
 package buzz.xinyan.java.exer.day10;
 
 /*2、定义一个丈夫Husband类，有姓名、年龄、妻子属性
@@ -114,5 +111,3 @@ class Wife {
 
 	}
 }
->>>>>>> 58e0e38fc512c36929a97f725e147d3d180c96b7
->>>>>>> 781671ea7c515fa22cf7845045d2ccde2b6265ed
