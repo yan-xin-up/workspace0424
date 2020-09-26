@@ -7,6 +7,7 @@
     <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="buzz.xinyan.view.CustomerView"/>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="buzz.xinyan.bean.Customer"/>
     <fullyQualifiedTypeName name="buzz.xinyan.service.CustomerList"/>
     <fullyQualifiedTypeName name="buzz.xinyan.util.CMUtility"/>
@@ -19,4 +20,11 @@
     <fullyQualifiedTypeName name="buzz.xinyan.java.exe.ManKind"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exe.KidsTest"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exe.Kids"/>
+=======
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.util.CMUtility"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.bean.Customer"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.service.CustomerList"/>
+>>>>>>> d5ef856f4cdaf84bf0d8bf0d9c86ab1ea0255971
 </qualifiedTypeNameHistroy>
