@@ -2,6 +2,8 @@ package buzz.xinyan.view;
 
 import javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction;
 
+import org.omg.PortableServer.ID_ASSIGNMENT_POLICY_ID;
+
 import buzz.xinyan.bean.Customer;
 import buzz.xinyan.service.CustomerList;
 import buzz.xinyan.util.CMUtility;
@@ -15,7 +17,7 @@ import buzz.xinyan.util.CMUtility;
  *
  */
 public class CustomerView {
-	CustomerList customerList = new CustomerList(1); // 建立10个客户的数组
+	CustomerList customerList = new CustomerList(3); // 建立10个客户的数组
 	private String String;
 
 	public CustomerView() {
@@ -74,7 +76,7 @@ public class CustomerView {
 	private void addNewCustomer() {
 		System.out.println("-----------------添加客户-----------------");
 		System.out.println("姓名：");
-		String name = CMUtility.readString(4);
+		String name = CMUtility.readString(20);
 		System.out.println("性别：");
 		char gender = CMUtility.readChar();
 		System.out.println("年龄：");
@@ -87,9 +89,9 @@ public class CustomerView {
 		Customer cust = new Customer(name, gender, age, phone, email);
 		boolean flag = customerList.addCustomer(cust);
 		if (flag) {
-			System.out.println("-----------------恭喜！添加用户成功-----------------");
+			System.out.println("-----------------添加成功-----------------");
 		} else {
-			System.out.println("-----------------客户已满！添加失败-----------------");
+			System.out.println("-----------------添加失败-----------------");
 
 		}
 	}
@@ -122,26 +124,65 @@ public class CustomerView {
 		String name = CMUtility.readString(11, cust.getName());
 		System.out.println("性别(" + cust.getGender() + "):");
 		char gender = CMUtility.readChar(cust.getGender());
-		System.out.println("年龄(" + cust.getName() + "):");
-		 int age = CMUtility.readInt(cust.getAge());
+		System.out.println("年龄(" + cust.getAge() + "):");
+		int age = CMUtility.readInt(cust.getAge());
 		System.out.println("电话号码(" + cust.getGender() + "):");
 		String phone = CMUtility.readString(12, cust.getPhone());
 		System.out.println("邮箱(" + cust.getEmail() + "):");
 		String email = CMUtility.readString(20, cust.getEmail());
-		
+
 		Customer newCust = new Customer(name, gender, age, phone, email);
-		boolean replaceCustomer = customerList.replaceCustomer(readInt-1, newCust);
-		if(replaceCustomer) {
+		boolean replaceCustomer = customerList.replaceCustomer(readInt - 1, newCust);
+		if (replaceCustomer) {
 			System.out.println("-----------------修改完成-----------------");
-		}else {
+		} else {
 			System.out.println("-----------------修改失败-----------------");
 		}
 	}
 
+	/**
+	 * 
+	 * @Description 删除客户信息
+	 * @author Ivan Xin
+	 * @date 2020年9月21日上午11:19:22
+	 */
 	private void deleteCustomer() {
-
+		System.out.println("-----------------删除客户-----------------");
+		Customer cust;
+		int readInt;
+		for (;;) {
+			System.out.println("请选择待删除客户编号(-1退出)：");
+			readInt = CMUtility.readInt();
+			if (readInt == -1) {
+				return;
+			}
+			cust = customerList.getCustomer(readInt - 1);
+			if (cust == null) {
+				System.out.println("无法找到指定客户！");
+			}else {
+				break;
+			}
+		}
+		//找到用户
+		System.out.println("确认是否删除(Y/N)：");
+		char isDelet = CMUtility.readConfirmSelection();
+		if(isDelet == 'Y') {
+			boolean deleteSuccess = customerList.deleteCustomer(readInt-1);
+			if(deleteSuccess) {
+				System.out.println("-----------------删除完毕-----------------");
+			}else {
+				System.out.println("-----------------删除失败-----------------");
+			}
+		}else {
+			return;
+		}
 	}
-
+	/**
+	 * 
+	* @Description  列表
+	* @author Ivan Xin
+	* @date 2020年9月21日下午1:09:11
+	 */
 	private void listAllCustomers() {
 
 		int total = customerList.getTotal();
@@ -149,12 +190,12 @@ public class CustomerView {
 			System.out.println("------------对不起！无客户记录------------");
 		} else {
 			System.out.println("-----------------客户列表-----------------");
-			System.out.println("编号\t\t姓名\t性别\t年龄\t电话\t\t\t\t\t4邮箱");
+			System.out.println("编号\t\t姓名\t\t性别\t年龄\t电话\t\t邮箱");
 			Customer[] cust = customerList.getAllCustomers();// 调用
 			for (int i = 0; i < cust.length; i++) {
 				Customer custs = cust[i];
-				System.out.println((i + 1) + "\t\t\t" + custs.getName() + "\t" + custs.getGender() + "\t\t"
-						+ custs.getAge() + "\t\t" + custs.getPhone() + "\t\t" + custs.getEmail());
+				System.out.println((i + 1) + "\t\t" + custs.getName() + "\t\t" + custs.getGender() + "\t"
+						+ custs.getAge() + "\t" + custs.getPhone() + "\t\t" + custs.getEmail());
 			}
 
 			System.out.println("---------------客户列表完成 ---------------");
