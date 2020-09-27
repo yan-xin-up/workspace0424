@@ -1,30 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="buzz.xinyan.java.debugText.TestBubble"/>
-    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.bean.Cusromer"/>
-    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.view.CustomerView"/>
-<<<<<<< HEAD
-    <fullyQualifiedTypeName name="buzz.xinyan.bean.Customer"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.service.CustomerList"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.util.CMUtility"/>
-    <fullyQualifiedTypeName name="org.omg.PortableServer.ID_ASSIGNMENT_POLICY_ID"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.java.exe.Person"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="org.omg.CORBA.PUBLIC_MEMBER"/>
-    <fullyQualifiedTypeName name="java.lang.Void"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.java.exe.ManKind"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.java.exe.KidsTest"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.java.exe.Kids"/>
-=======
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.util.CMUtility"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.bean.Customer"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.service.CustomerList"/>
->>>>>>> d5ef856f4cdaf84bf0d8bf0d9c86ab1ea0255971
+<fullyQualifiedTypeName name="buzz.xinyan.java.exe.Circle"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="buzz.xinyan.java.exe.Cylinder"/>
 </qualifiedTypeNameHistroy>
