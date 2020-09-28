@@ -1,8 +1,6 @@
 package buzz.xinyan.view;
 
-import javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction;
 
-import org.omg.PortableServer.ID_ASSIGNMENT_POLICY_ID;
 
 import buzz.xinyan.bean.Customer;
 import buzz.xinyan.service.CustomerList;

@@ -1,5 +1,8 @@
+=\=\=\=\=\=\=
 //org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
 //org.eclipse.ui.commands/state/org.eclipse.wst.xml.views.XPathView.processor.xpathprocessor/org.eclipse.ui.commands.radioState=xpath10
+<<<<<<<=HEAD
+>>>>>>>=d5ef856f4cdaf84bf0d8bf0d9c86ab1ea0255971
 ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc
 ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.jface.textfont
 PLUGINS_NOT_ACTIVATED_ON_STARTUP=;org.eclipse.m2e.discovery;
@@ -20,11 +23,7 @@ org.eclipse.jface.textfont=1|Consolas|30.0|0|WINDOWS|1|-40|0|0|0|400|0|0|0|0|3|2
 org.eclipse.mylyn.wikitext.ui.presentation.textFont=1|Consolas|30.0|0|WINDOWS|1|-40|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
 org.eclipse.pde.internal.ui.compare.ManifestContentMergeViewer=1|Consolas|30.0|0|WINDOWS|1|-40|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
 org.eclipse.pde.internal.ui.compare.PluginContentMergeViewer=1|Consolas|30.0|0|WINDOWS|1|-40|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
-<<<<<<< HEAD
-org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\n<org.eclipse.ui.commands>\n<keyBinding contextId\="org.eclipse.wst.jsdt.ui.javascriptViewScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+COMMAND+S"/>\n<keyBinding commandId\="org.eclipse.jdt.ui.edit.text.java.source.quickMenu" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+SHIFT+S"/>\n<keyBinding commandId\="org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu" contextId\="org.eclipse.wst.jsdt.ui.javascriptViewScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+SHIFT+S"/>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+COMMAND+S"/>\n<keyBinding commandId\="org.eclipse.ui.edit.text.contentAssist.proposals" contextId\="org.eclipse.ui.contexts.dialogAndWindow" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+/"/>\n<keyBinding contextId\="org.eclipse.ui.contexts.dialogAndWindow" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+/"/>\n</org.eclipse.ui.commands>
-=======
-org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<org.eclipse.ui.commands>\r\n<keyBinding commandId\="org.eclipse.ui.edit.text.contentAssist.proposals" contextId\="org.eclipse.ui.contexts.dialogAndWindow" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+/"/>\r\n</org.eclipse.ui.commands>
->>>>>>> d5ef856f4cdaf84bf0d8bf0d9c86ab1ea0255971
+org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<org.eclipse.ui.commands/>
 org.eclipse.ui.showkeys.backgroundColor=204,238,208
 org.eclipse.wst.jsdt.internal.ui.compare.JavaMergeViewer=1|Consolas|30.0|0|WINDOWS|1|-40|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
 org.eclipse.wst.jsdt.ui.editors.textfont=1|Consolas|30.0|0|WINDOWS|1|-40|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
