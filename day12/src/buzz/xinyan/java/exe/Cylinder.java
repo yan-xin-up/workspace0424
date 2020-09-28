@@ -14,6 +14,12 @@ public class Cylinder extends Circle {
 	}
 	
 	public double findVolume() {
-		return findArea()*getLength();
+//		return findArea()*getLength();
+		return Math.PI*Math.pow(getRadious(), 2)*getLength();
+	}
+	@Override
+	public double findArea() {
+		return Math.PI*Math.pow(getRadious(),2)*2+2*Math.PI*
+				getRadious()*getLength();
 	}
 }

@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<<<<<<< HEAD
-    <fullyQualifiedTypeName name="buzz.xinyan.java.exe.Circle"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.java.exe.Cylinder"/>
-=======
-<fullyQualifiedTypeName name="buzz.xinyan.java.exe.Circle"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
-<fullyQualifiedTypeName name="buzz.xinyan.java.exe.Cylinder"/>
->>>>>>> 0d3dde7949632fe4ebc7749f4931feccde43d1ba
 </qualifiedTypeNameHistroy>
