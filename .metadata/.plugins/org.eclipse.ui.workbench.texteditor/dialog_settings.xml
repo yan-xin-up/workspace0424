@@ -8,6 +8,7 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value="value"/>
 		<list key="findhistory">
+			<item value="public Account() {"/>
 			<item value="value"/>
 			<item value="f"/>
 			<item value="costomerview"/>
