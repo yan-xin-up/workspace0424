@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="buzz.xinyan.java.supertest.Account"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.java.supertest.CheckAccount"/>
-    <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.java.supertest.Circle"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.java.supertest.Cylinder"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.java.supertest.CylinderTest"/>
+<fullyQualifiedTypeName name="buzz.xinyan.java.supertest.Account"/>
+<fullyQualifiedTypeName name="buzz.xinyan.java.supertest.CheckAccount"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+<fullyQualifiedTypeName name="buzz.xinyan.java.supertest.Circle"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="buzz.xinyan.java.supertest.Cylinder"/>
+<fullyQualifiedTypeName name="buzz.xinyan.java.supertest.CylinderTest"/>
+<fullyQualifiedTypeName name="buzz.xinyan.java.exer1.GeometricObject"/>
+<fullyQualifiedTypeName name="buzz.xinyan.java.exer1.Circle"/>
+<fullyQualifiedTypeName name="buzz.xinyan.java.exer1.MyRectangle"/>
+<fullyQualifiedTypeName name="buzz.xinyan.java.exer1.GeometricTest"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="buzz.xinyan.java.exer1.Base1"/>
+<fullyQualifiedTypeName name="buzz.xinyan.java.exer1.sub1"/>
 </qualifiedTypeNameHistroy>
