@@ -5,6 +5,11 @@ public class OrderTest {
 		Order order1 = new Order(2345, "mikami_yui");
 		Order order2 = new Order(1234, "ishihara_satomi");
 		System.out.println(order1.equals(order2));
+		
+		String s1 = "aa";
+		String s2 = "aa";
+		
+		System.out.println(s1 == s2);
 	}
 
 }
