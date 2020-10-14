@@ -6,8 +6,8 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
-			<item value="org.eclipse.jdt.ui.PackagesView"/>
 			<item value="org.eclipse.jdt.ui.PackageExplorer"/>
+			<item value="org.eclipse.jdt.ui.PackagesView"/>
 			<item value="org.eclipse.ui.console.ConsoleView"/>
 			<item value="org.eclipse.ui.views.ResourceNavigator"/>
 			<item value="org.eclipse.debug.ui.DebugView"/>
@@ -30,8 +30,8 @@
 			<item value="1"/>
 		</list>
 		<list key="textArray">
-			<item value="pack"/>
 			<item value="package"/>
+			<item value="pack"/>
 			<item value="console"/>
 			<item value="c"/>
 			<item value="con"/>
@@ -52,8 +52,9 @@
 		<item key="uncategorizedFilter" value="true"/>
 	</section>
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
 		</list>
 	</section>
 	<section name="WorkbenchPreferenceDialogSettings">

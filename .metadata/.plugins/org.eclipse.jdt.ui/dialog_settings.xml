@@ -50,9 +50,9 @@
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
 		<item key="DIALOG_X_ORIGIN" value="380"/>
 		<item key="DIALOG_Y_ORIGIN" value="42"/>
-		<item key="DIALOG_WIDTH" value="560"/>
-		<item key="DIALOG_HEIGHT" value="639"/>
-		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_WIDTH" value="587"/>
+		<item key="DIALOG_HEIGHT" value="767"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
 	</section>
 	<section name="RefactoringWizard.preview">
 		<item key="width" value="600"/>
@@ -83,11 +83,11 @@
 		<item key="OmitCallToSuper" value="false"/>
 	</section>
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
-		<item key="DIALOG_X_ORIGIN" value="681"/>
-		<item key="DIALOG_Y_ORIGIN" value="29"/>
-		<item key="DIALOG_WIDTH" value="555"/>
-		<item key="DIALOG_HEIGHT" value="618"/>
-		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_X_ORIGIN" value="-1"/>
+		<item key="DIALOG_Y_ORIGIN" value="73"/>
+		<item key="DIALOG_WIDTH" value="574"/>
+		<item key="DIALOG_HEIGHT" value="749"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
 	</section>
 	<section name="SearchInDialog">
 		<item key="SearchInSources" value="true"/>
@@ -156,5 +156,11 @@
 		<item key="expanded0" value="true"/>
 	</section>
 	<section name="BreadcrumbItemDropDown">
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item key="pageIndex" value="3"/>
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item key="index" value="4"/>
 	</section>
 </section>
