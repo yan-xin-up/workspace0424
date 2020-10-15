@@ -1,6 +1,6 @@
 package buzz.xinyan.java.exer4;
 
-import java.lang.System.Logger.Level;
+
 import java.util.Scanner;
 import java.util.Vector;
 
@@ -51,7 +51,7 @@ public class ScoreTest {
 			// jdk 5.0之前
 //			Integer inScore = (Integer) obj;
 //			int score = inScore.intValue();// 转化为基本数据类型
-			int score = (int)obj;
+			int score = (int)obj;	//自动拆箱
 			if (maxScore - score < 10) {
 				level = 'A';
 			} else if (maxScore - score < 20) {

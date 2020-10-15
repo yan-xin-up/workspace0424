@@ -44,4 +44,7 @@ public class Circle extends GeometricObject {
 	public String toString() {
 		return "Circle [radious ="+radious+"]";
 	}
+//	private int show(int a,int b) {
+//		return 0;
+//	}
 }

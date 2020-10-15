@@ -32,5 +32,8 @@ public class GeometricObject {
 		this.weight = weight;
 	}
 	
+	int show(int a,int b) {
+		return 0;
+	}
 	
 }
