@@ -1,7 +1,5 @@
 INDEX VERSION 1.131+/Users/ivan/Desktop/workspace_eclipse/workspace0424/.metadata/.plugins/org.eclipse.jdt.core
-<<<<<<< HEAD
-692252847.index
-=======
+1675544549.index
 1555235333.index
 1049636216.index
 3782303837.index
@@ -15,16 +13,12 @@ INDEX VERSION 1.131+/Users/ivan/Desktop/workspace_eclipse/workspace0424/.metadat
 3680610610.index
 484874534.index
 2021625758.index
-2470508502.index
 692252847.index
-2100988032.index
-1475429927.index
->>>>>>> 00389af5d509399a2f45c7786e7dbd544357cd30
+2470508502.index
 2953740120.index
+1475429927.index
+2100988032.index
+1641536248.index
 4256846406.index
-1675544549.index
-2327667408.index
-1555235333.index
-1049636216.index
-349828979.index
-3782303837.index
+527713563.index
+2481443624.index
