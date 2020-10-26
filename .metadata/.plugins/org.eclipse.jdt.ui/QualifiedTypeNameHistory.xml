@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<<<<<<< HEAD
 <fullyQualifiedTypeName name="buzz.xinyan.java.supertest.Account"/>
 <fullyQualifiedTypeName name="buzz.xinyan.java.supertest.CheckAccount"/>
 <fullyQualifiedTypeName name="buzz.xinyan.java.supertest.Circle"/>
@@ -40,4 +41,45 @@
 <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last1.StudentOne"/>
 <fullyQualifiedTypeName name="buzz.xinyan.java1.Account"/>
 <fullyQualifiedTypeName name="buzz.xinyan.java1.Order"/>
+=======
+    <fullyQualifiedTypeName name="buzz.xinyan.java.supertest.Account"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.supertest.CheckAccount"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.supertest.Circle"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.supertest.Cylinder"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.supertest.CylinderTest"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer1.GeometricObject"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer1.Circle"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer1.GeometricTest"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer1.Base1"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer1.sub1"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer1.Order"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer1.MyRectangle"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer1.MyDate"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer4.Circle"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Vector"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.System.Logger.Level"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Faculty"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Person"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Person1"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Car"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Vehicle"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Truck"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Employee1"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Transport"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Ship"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last1.Student"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last1.xiyou"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last1.PersonOne"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last1.StudentOne"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java1.Account"/>
+>>>>>>> 00389af5d509399a2f45c7786e7dbd544357cd30
 </qualifiedTypeNameHistroy>
