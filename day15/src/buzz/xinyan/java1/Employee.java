@@ -39,11 +39,11 @@ abstract public class Employee {
 		this.birthday = birthday;
 	}
 
-	public abstract int earnings();
+	public abstract double earnings();
 	
 	@Override
 	public String toString() {
-		return "Employee [name=" + name + ", number=" + number + ", birthday=" + birthday + "]";
+		return "name=" + name + ", number=" + number + ", birthday=" + birthday.toDateString();
 	}
 
 
