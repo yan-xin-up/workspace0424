@@ -33,7 +33,6 @@
     <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Transport"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Ship"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last1.Student"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last1.xiyou"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last1.PersonOne"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last1.StudentOne"/>
@@ -47,4 +46,9 @@
     <fullyQualifiedTypeName name="buzz.xinyan.java1.Employee"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java2.Attackable"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java2.Flyable"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java2.Plane"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java2.Flash"/>
 </qualifiedTypeNameHistroy>
