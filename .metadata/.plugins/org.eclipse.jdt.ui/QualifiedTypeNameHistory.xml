@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Vector"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.lang.System.Logger.Level"/>
-    <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Faculty"/>
-    <fullyQualifiedTypeName name="java.sql.Date"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Person"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Person1"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Car"/>
-    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Vehicle"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Truck"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Employee1"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Transport"/>
@@ -27,11 +16,9 @@
     <fullyQualifiedTypeName name="buzz.xinyan.java1.HourlyEmployee"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java1.MyDate"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java1.Employee"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java2.Attackable"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java2.Flyable"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java2.Plane"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java2.Flash"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java2.Circle"/>
@@ -60,4 +47,17 @@
     <fullyQualifiedTypeName name="buzz.xinyan.java.exercise.AnimalT"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exercise.Test"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exercise.DemoT"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exercise.First.Contents"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exercise.First.Titles"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exercise.First"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exercise.Car.airHeigh"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exercise.Car.airLow"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exercise.ABB.BBB"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exercise.Lenovo.Works.Work"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exercise.Lenovo.dev"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exercise.WorkTest.calculate"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exercise.WorkTest.clock"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exercise.Bell"/>
 </qualifiedTypeNameHistroy>
