@@ -2,15 +2,14 @@ package buzz.xinyan.java.exercise;
 
 public class BellTest {
 	public static void main(String[] args) {
-		CellPhone c = new CellPhone() {
+		new CellPhone().alarm(new Bell(){
+
 			@Override
-			void alarm(Bell b) {
+			public void sound() {
 				// TODO Auto-generated method stub
-				
-				System.out.println("懒猪起床");
+				System.out.println("pig ");
 			}
-		};
-		c.alarm();
-		System.out.println("懒猪起床");
+			
+		});
 	}
 }

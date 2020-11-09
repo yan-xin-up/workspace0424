@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Truck"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Employee1"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Transport"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exer.last.Ship"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="buzz.xinyan.java.exercise.WorkTest.calculate"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exercise.WorkTest.clock"/>
     <fullyQualifiedTypeName name="buzz.xinyan.java.exercise.Bell"/>
+    <fullyQualifiedTypeName name="buzz.xinyan.java.exercise.CellPhone"/>
 </qualifiedTypeNameHistroy>
