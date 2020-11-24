@@ -1,6 +1,6 @@
 package buzz.xinyan.team.domain;
 
-class NoteBook implements Equipment {
+public class NoteBook implements Equipment {
 	private String model;
 	private double price;
 

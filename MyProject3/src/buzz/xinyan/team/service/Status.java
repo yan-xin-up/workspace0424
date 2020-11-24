@@ -14,6 +14,10 @@ public class Status {
 	}
 	public static final Status FREE  = new Status("FREE"); 
 	public static final Status BUSY  = new Status("BUSY"); 
-	public static final Status VACATION = new Status("VACATION"); 
+	public static final Status VACATION = new Status("VACATION");
+	
+	public String getName() {
+		return name;
+	} 
 	
 }
