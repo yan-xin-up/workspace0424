@@ -19,7 +19,10 @@ public class Designer extends Programmer {
 		this.bonus = bonus;
 	}
 
-	
+	@Override
+	public String toString() {
+		return super.getDescripsion()+"\t设计师\t"+getStatus()+"\t\t\t"+getEquipment().getDescription();
+	}
 	
 	
 }

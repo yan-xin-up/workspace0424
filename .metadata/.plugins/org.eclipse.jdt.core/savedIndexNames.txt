@@ -7,6 +7,5 @@ INDEX VERSION 1.131+/Users/ivan/Desktop/workspace_eclipse/workspace0424/.metadat
 1675544549.index
 349828979.index
 4208432735.index
-4290542696.index
 4256846406.index
 1581629497.index

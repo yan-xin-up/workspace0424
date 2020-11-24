@@ -20,7 +20,7 @@ public class NameListServiceTest {
 		NameListService service =new NameListService();
 		Employee[] employee = service.getAllEmployee();
 		for(int i = 0;i < employee.length;i++) {
-			System.out.println(employee[i].toString() );
+			System.out.println(employee[i]);
 		}
 	}
 }
