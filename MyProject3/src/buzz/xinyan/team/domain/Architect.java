@@ -20,7 +20,12 @@ public class Architect extends Designer {
 	}
 
 	public String toString() {
-		return super.getDescripsion()+"\t架构师\t"+getStatus()+"\t\t\t"+getEquipment().getDescription();
+		return super.getDescripsion()+"\t架构师\t"+getStatus()+"\t"+getBonus()+"\t"+getStock()+"\t"+getEquipment().getDescription();
 	
 	}
+	public String getDetailsForTeam() {
+		// TODO Auto-generated method stub
+		return getTeambaseDetails()+"\t架构师"+"\t"+getBonus()+getStock();
+		}
+
 }

@@ -41,7 +41,13 @@ public class Programmer extends Employee {
 
 	@Override
 	public String toString() {
-		return super.getDescripsion()+"\t程序员\t"+status+"\t\t\t"+equipment.getDescription();
+		return super.getDescripsion() + "\t程序员\t" + status + "\t\t\t" + equipment.getDescription();
 	}
-
+public String getTeambaseDetails() {
+	return getMemberId()+"/"+getId()+"\t"+getName()+"\t"+getAge()+"\t"+getSalary();
+}
+	public String getDetailsForTeam() {
+		// TODO Auto-generated method stub
+		return getTeambaseDetails()+"\t程序员";
+		}
 }

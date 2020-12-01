@@ -122,7 +122,7 @@ public class TeamService {
 	 * @param memberId
 	 * @throws TeamException
 	 */
-	private void removeMember(int memberId) throws TeamException {
+	public void removeMember(int memberId) throws TeamException {
 		// TODO Auto-generated method stub
 		if(memberId < 0 || memberId>=total) {
 			throw new TeamException("找不到指定memberId的员工，删除失败!");

@@ -1,6 +1,7 @@
 package buzz.xinyan.team.view;
 
 import buzz.xinyan.team.domain.Employee;
+import buzz.xinyan.team.domain.Programmer;
 import buzz.xinyan.team.service.NameListService;
 import buzz.xinyan.team.service.TeamException;
 import buzz.xinyan.team.service.TeamService;
@@ -17,11 +18,14 @@ public class TeamView {
 	 */
 	public void enterMainMenu() throws TeamException {
 		// TODO Auto-generated method stub
+		char menu = 0;
 		boolean isTrue = true;
 		while(isTrue) {
-			listAllEmployees();
+			if(menu != '1') {
+				listAllEmployees();
+			}
 			System.out.println("1-团队列表 2-添加团队成员 3-删除团队成员 4-退出 请选择(1-4):");
-			char menu = TSUtility.readMenuSelection();
+			menu = TSUtility.readMenuSelection();
 			switch(menu) {
 			case '1':
 				getTeam();
@@ -51,7 +55,7 @@ public class TeamView {
 	 */
 	private void listAllEmployees() throws TeamException {
 		// TODO Auto-generated method stub
-		System.out.println("---------------开发团队调度软件-----------------------\n");
+		System.out.println("-------------------开发团队调度软件-----------------------\n");
 		Employee[] allEmployee = listSvc.getAllEmployee();
 		if(allEmployee.length ==0 || allEmployee == null) {
 			throw new TeamException("公司没得员工！");
@@ -60,7 +64,7 @@ public class TeamView {
 			for(int i = 0; i < allEmployee.length;i++) {
 				System.out.println(allEmployee[i]);
 			}
-			System.out.println("------------------------------------------------------");
+			System.out.println("----------------------------------------------------------");
 		}
 	}
 	/**
@@ -71,6 +75,18 @@ public class TeamView {
 	 */
 	private void getTeam() {
 		// TODO Auto-generated method stub
+		System.out.println("---------------------------团队成员列表-------------------------------\n");
+		Programmer[] team = teamSvc.getTeam();
+		if(team.length ==0 || team ==null) {
+			System.out.println("开发团队目前没有成员！");
+		}else {
+			System.out.println("TID/ID\t姓名\t年龄\t工资\t职位\t奖金\t股票\n");
+			for(int i = 0; i < team.length;i++) {
+				System.out.println(team[i].getDetailsForTeam());
+			}
+		}
+		
+		System.out.println("------------------------------------------------------------------------");
 
 	}
 	/**
@@ -81,6 +97,18 @@ public class TeamView {
 	 */
 	private void addMember() {
 		// TODO Auto-generated method stub
+		System.out.println("-------------------------------添加成员--------------------------------");
+		System.out.println("输入要添加的id:");
+		int readInt = TSUtility.readInt();
+		try {
+			Employee employee = listSvc.getEmployee(readInt);
+			teamSvc.addMember(employee);
+			System.out.println("添加成功");
+		} catch (TeamException e) {
+			// TODO Auto-generated catch block
+			System.out.println(e.getMessage());
+		}
+		TSUtility.readReturn();
 
 	}
 	
@@ -92,6 +120,22 @@ public class TeamView {
 	 */
 	private void deleteMember() {
 		// TODO Auto-generated method stub
+		System.out.println("-------------------------------删除成员--------------------------------");
+		System.out.println("输入要添加的TID:");
+		int readInt = TSUtility.readInt();
+		System.out.println("是否确认删除Y/N：");
+		char readConfirmSelection = TSUtility.readConfirmSelection();
+		if(readConfirmSelection =='Y') {
+			try {
+				teamSvc.removeMember(readInt);
+				System.out.println("删除成功");
+			} catch (TeamException e) {
+				// TODO Auto-generated catch block
+			System.out.println(e.getMessage());
+			}
+		}else {
+			return;
+		}
 
 	}
 	public static void main(String[] args) {
