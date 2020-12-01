@@ -13,7 +13,7 @@ import buzz.xinyan.team.domain.Programmer;
  *
  */
 public class TeamService {
-	private static int counter = 1; // 给memberId赋值使用
+	private static int counter = 1; // 静态变量，用来为开发团队新增成员自动生成团队中的唯一ID
 	private final int MAX_MEMBER = 5;// 团队总数为5
 	private Programmer[] team = new Programmer[MAX_MEMBER]; // 此数组为保存开发人员
 	private int total = 0; // 实际存在的成员数，开发团队的实际人数。
@@ -90,8 +90,10 @@ public class TeamService {
 			}
 		}
 		//向团队中添加成员
-		team[total++] = p;
 		
+		team[total++] = p;
+		p.setStatus(Status.BUSY);
+		p.setMemberId(counter++);
 	}
 
 	/**
@@ -122,5 +124,18 @@ public class TeamService {
 	 */
 	private void removeMember(int memberId) throws TeamException {
 		// TODO Auto-generated method stub
+		if(memberId < 0 || memberId>=total) {
+			throw new TeamException("找不到指定memberId的员工，删除失败!");
+		}
+		for(int i = 0;i < total;i++) {
+			if(team[i].getMemberId()==memberId) {
+				team[i].setStatus(Status.FREE);
+				break;
+			}
+		}
+		for(int i = memberId;i < total;i++) {
+			team[i] = team[i+1];
+		}
+		team[--total]=null;
 	}
 }
